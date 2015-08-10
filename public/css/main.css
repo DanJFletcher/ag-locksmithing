@@ -1,0 +1,112 @@
+
+/* Gradient color1 - color2 - color1 */
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+html, body {
+	height: 100%;
+}
+
+#phone {
+	vertical-align: middle;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+
+.decoration-none {
+	list-style: none;
+	padding: 0;
+    list-style-type: none;
+}
+
+.btn-lg {
+	box-shadow: 5px 5px 15px #222;
+	padding: 15px;
+	width: 200px;
+}
+
+.jumbo-wrapper {
+	background-image: url(../images/dirty-metal-surface.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	width: 65%;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	text-shadow: 4px 4px 7px #000;
+	box-shadow: 5px 5px 20px #000;;
+	color: white;
+	
+	border-radius: 10px;
+}
+
+.jumbotron {
+	background-image: url(../images/3keys.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 20px;
+	margin-bottom: 0;
+}
+
+
+
+.main-phone {
+	font-size: 5em;
+	text-shadow: 4px 4px 17px #000;
+}
+
+.big-text {
+	font-size: 5em;
+	text-shadow: 4px 4px 17px #000;
+}
+
+.sub-heading {
+	text-align: center; 
+	padding-top: 0; 
+	margin-top: 2px;
+}
+
+.centered {
+	text-align: center;
+}
+
+#papa {
+	width: 250px;
+	text-align: center;
+	font-style: italic;
+	font-family: sans-serif;
+	color: #9898A2;
+	font-size: 80%;
+}
+
+	#papa img {
+	width: 250px;
+}
+
+.copyright-notice {
+	text-align: center;
+	padding-top: 105px;
+	font-size: 90%;
+}
+
+.footer-wrapper {
+	margin: 50px auto 0;
+	background-color: #EEEEEE;
+	padding: 0;
+}
+
+footer {
+	background-color: #EEEEEE;
+	margin: 0 auto;
+}
+
+
+#footer {
+	
+}
