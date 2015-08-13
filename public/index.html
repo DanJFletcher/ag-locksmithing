@@ -71,7 +71,7 @@ Fixed to top, -->
         <li><a href="#about">About</a></li> 
       </ul>
       <ul class="nav navbar-nav navbar-right">
-      	<li><a href="">call / text: 555-555-7927</a></li> 
+      	<li><a href="#">call / text: 555-555-5555</a></li> 
       </ul>
     </div>
   </div>
@@ -84,8 +84,9 @@ Fixed to top, -->
       	<div class="jumbo-wrapper">
 	        <h1>A&amp;G Locksmithing</h1>
 	        <p>Serving Woodstock And Surrounding Area</p>
-	        <p><span class="main-phone">555-555-7927</span></p>
-	        <p><a class="btn btn-primary btn-lg" href="tel:5195397927" role="button">&nbsp;&nbsp;Call Now!  <img id="phone" src="images/phone-icon.png" /> </a></p>
+	        <p><span class="main-phone">555-555-555</span></p>
+	        <!-- make "call now" button work with href="tel:555-555-5555" -->
+	        <p><a class="btn btn-primary btn-lg" href="#" role="button">&nbsp;&nbsp;Call Now!  <img id="phone" src="images/phone-icon.png" /> </a></p>
 
       	</div>
       </div>
@@ -98,9 +99,7 @@ Fixed to top, -->
 
     	<h2 class="sub-heading">Serving Southwestern Ontario Since [year]</h2>
 
-    	
-
-
+    	<!-- SERVICES -->
     	<h1 class="big-text">Services</h1><hr />
       <!-- row of columns -->
       <div class="row">
@@ -121,6 +120,8 @@ Fixed to top, -->
         </div>
       </div>
 
+
+		<!-- ABOUT -->
       <h1 class="big-text">About A&amp;G</h1><hr />
       <div class="row">
 	      <div class="col-md-8">
@@ -139,19 +140,23 @@ Fixed to top, -->
 	      </div>
       </div>
 
-      <h1 class="big-text">Location</h1><hr />
 
+		<!-- LOCATION -->
+      <h1 class="big-text">Location</h1><hr />
+		
+		<!-- Google Map -->
     	<div id="map_canvas" style="width:100%; height:500px"></div>
 
 
     </div> <!-- /container -->
 
 
+	<!-- FOOTER -->
     <div class="footer-wrapper">
     	<div class="container">
     	<footer>
 
-    	
+    	<!-- CONTACT -->
           <div class="row">
 	        <div class="col-md-3">
 	          <h2>Contact</h2><hr />
@@ -161,15 +166,15 @@ Fixed to top, -->
 	          	<li>Email: a&amp;glocksmith@gmail.com</li>
 	          	<li>Address: 555 Hay St, Woodstock, ON ### ####</li>
 	          </ul>
-
-
 	        </div>
 
+	        <!-- ABOUT -->
 	        <div class="col-md-3">
 	          <h2>About</h2><hr />
 	          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
 	       </div>
 
+	       <!-- SERVICING AREA -->
 	        <div class="col-md-3">
 	          <h2>Serving Area</h2><hr />
 	          <ul class="decoration-none">
@@ -183,6 +188,7 @@ Fixed to top, -->
 	          </ul>
 	        </div>
 
+	        <!-- SERVICES -->
 	        <div class="col-md-3">
 	          <h2>Services</h2><hr />
 	          <ul class="decoration-none">
@@ -196,19 +202,19 @@ Fixed to top, -->
 	          </ul>
 	        </div>
 	     </div>
-	     	<!-- legal jumbo -->
+	     	<!-- COPY RIGHT  -->
 	        <p class="copyright-notice">Website created and designed by &copy; Fletcher Designs 2015. Licenced under MIT.</p>
       </footer>
       </div>
     </div>
 
-    <!-- Bootstrap core JavaScript
+    <!-- Bootstrap core JavaScript CDN
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- NOT USED <script src="../../dist/js/bootstrap.min.js"></script> -->
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <!-- NOT USED <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
     <!-- google map services -->
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?" sensor="FALSE"></script>
     <script type="text/javascript">
@@ -230,7 +236,7 @@ Fixed to top, -->
 	    });
 
 	    var address = '380 Hay St, Woodstock, ON N4S 2C4';
-	    var number = '519-539-7927';
+	    var number = '555-555-5555';
 	    var infowindow = new google.maps.InfoWindow({
 	        content: address
 	    });
