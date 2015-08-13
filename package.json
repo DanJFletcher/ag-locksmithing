@@ -1,0 +1,23 @@
+{
+  "name": "ag-locksmith",
+  "version": "0.0.1",
+  "description": "A Node server for ag-locksmithing",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanJFletcher/ag-locksmithing.git"
+  },
+  "author": "Dan Fletcher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanJFletcher/ag-locksmithing/issues"
+  },
+  "homepage": "https://github.com/DanJFletcher/ag-locksmithing",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
