@@ -4,6 +4,9 @@ Frontend only for now.
 
 # Installation
 Clone repository
+
 npm install
+
 nodemon server.js
+
 
