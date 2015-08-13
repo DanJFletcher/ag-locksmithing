@@ -27,7 +27,9 @@ html, body {
 
 .btn-lg {
 	box-shadow: 5px 5px 15px #222;
-	padding: 15px;
+	padding: 5px;
+	font-size: 20px;
+	font-weight: bold;
 	width: 200px;
 }
 
