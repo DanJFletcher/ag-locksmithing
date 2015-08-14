@@ -1,10 +1,12 @@
 
-/* Gradient color1 - color2 - color1 */
+/* Main style sheet */
 
+/* ELEMENTS */
 hr {
     border: 0;
     height: 1px;
     background: #333;
+    /* Gradient color1 - color2 - color1 */
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
@@ -12,11 +14,12 @@ html, body {
 	height: 100%;
 }
 
-#phone {
-	vertical-align: middle;
-	margin-bottom: 5px;
-	margin-left: 5px;
+footer {
+	background-color: #EEEEEE;
+	margin: 0 auto;
 }
+
+/* CLASSES */
 
 
 .decoration-none {
@@ -56,8 +59,7 @@ html, body {
 	margin-bottom: 0;
 }
 
-
-
+/* style for digits in main ATA */
 .main-phone {
 	font-size: 5em;
 	text-shadow: 4px 4px 17px #000;
@@ -78,7 +80,8 @@ html, body {
 	text-align: center;
 }
 
-#papa {
+/* wrapper for image and description */
+.portrait-img {
 	width: 250px;
 	text-align: center;
 	font-style: italic;
@@ -86,8 +89,7 @@ html, body {
 	color: #9898A2;
 	font-size: 80%;
 }
-
-	#papa img {
+.portrait-img img {
 	width: 250px;
 }
 
@@ -103,12 +105,10 @@ html, body {
 	padding: 0;
 }
 
-footer {
-	background-color: #EEEEEE;
-	margin: 0 auto;
-}
+/* ID'S */
 
-
-#footer {
-	
+#phone-icon {
+	vertical-align: middle;
+	margin-bottom: 5px;
+	margin-left: 5px;
 }
